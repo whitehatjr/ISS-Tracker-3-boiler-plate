@@ -13,7 +13,6 @@ import {
 } from "react-native";
 import MapView, { Marker } from 'react-native-maps';
 import axios from "axios";
-import IssInfo from "./IssInfo";
 import { TouchableOpacity } from "react-native-gesture-handler";
 
 export default class IssLocationScreen extends Component {
@@ -77,7 +76,6 @@ export default class IssLocationScreen extends Component {
                                 </Marker>
                             </MapView>
                         </View>
-                        <IssInfo />
                     </ImageBackground>
                 </View>
             );
